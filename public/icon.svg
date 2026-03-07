@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" preserveAspectRatio="xMidYMid meet">
+  <!-- Logo-only favicon: embed the provided raster logo PNG centered to ensure clear icon -->
+  <rect width="512" height="512" fill="transparent" />
+  <image href="/logo_no_white.png" width="420" height="420" x="46" y="46" preserveAspectRatio="xMidYMid meet" />
+</svg>
