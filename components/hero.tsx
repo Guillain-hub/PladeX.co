@@ -14,7 +14,7 @@ const TechMarquee = () => {
   ]
 
   return (
-    <div className="absolute bottom-0 left-0 right-0 z-0 border-t border-white/5 bg-[#020617]/80 backdrop-blur-md h-16 flex items-center overflow-hidden">
+    <div className="absolute bottom-0 left-0 right-0 z-15 border-t border-white/5 bg-[#020617]/80 backdrop-blur-md h-16 flex items-center overflow-hidden">
       {/* Label */}
       <div className="hidden md:flex items-center px-6 border-r border-white/5 h-full bg-[#020617]">
         <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest whitespace-nowrap">Powered By</span>
@@ -149,7 +149,7 @@ export default function PladexHero() {
   }, [activeTab]) // Re-run this effect when the tab changes
 
   return (
-    <section className="relative h-screen w-full bg-[#020617] overflow-hidden flex flex-col font-sans select-none pb-20">
+    <section className="relative min-h-screen w-full bg-[#020617] overflow-hidden flex flex-col font-sans select-none pb-20">
       
       {/* --- HEADER (extracted) --- */}
       <Header />

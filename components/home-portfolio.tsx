@@ -29,7 +29,7 @@ export default function HomePortfolio() {
   ]
 
   return (
-    <section id="portfolio" className="py-12 px-4 sm:px-6 lg:px-8 bg-white dark:bg-background relative">
+    <section id="portfolio" className="py-12 px-4 sm:px-6 lg:px-8 bg-white dark:bg-background relative z-20">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-8">
@@ -70,7 +70,7 @@ export default function HomePortfolio() {
               className="group rounded-2xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gradient-to-br dark:from-gray-900/50 dark:to-gray-950/50 hover:border-yellow-500/50 transition-all duration-500 p-8 overflow-hidden cursor-pointer"
             >
               {/* Content */}
-              <div className="relative z-10">
+              <div className="relative z-20">
                 <span className="inline-block text-xs font-semibold tracking-widest uppercase text-yellow-400 bg-yellow-500/10 px-3 py-1 rounded-lg border border-yellow-500/20 mb-4">
                   {project.category}
                 </span>
